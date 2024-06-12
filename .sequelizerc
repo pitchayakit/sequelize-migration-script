@@ -1,0 +1,8 @@
+// .sequelizerc
+require("babel-register");
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('config', 'sequelize-cli-config.json'),
+  'migrations-path': path.resolve('', 'migrations')
+};
